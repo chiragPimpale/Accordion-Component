@@ -29,10 +29,14 @@ body {
 
 .items {
 }
-.num {
-}
+
+.num,
 .big-text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #087f5b;
 }
+
 .icon {
   width: 24px;
   height: 24px;
