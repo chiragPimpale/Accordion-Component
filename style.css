@@ -46,7 +46,11 @@ body {
 .big-text {
   font-size: 24px;
   font-weight: 500;
-  color: #087f5b;
+  /* color: #087f5b; */
+}
+
+.num {
+  color: #ced4da;
 }
 
 .icon {
@@ -57,6 +61,7 @@ body {
 
 .hidden-box {
   grid-column: 2;
+  display: none;
 }
 
 .hidden-box p {
@@ -70,4 +75,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.open {
+  border-top: 4px solid #087f5b;
+}
+
+.open .hidden-box {
+  display: block;
+}
+
+.open .num,
+.open .big-text {
+  color: #087f5b;
 }
