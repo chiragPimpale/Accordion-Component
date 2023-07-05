@@ -20,6 +20,7 @@ GREY COLOR: #343a40
 body {
   font-family: "Inter", sans-serif;
   color: #343a40;
+  line-height: 1;
 }
 
 .accordion {
