@@ -26,3 +26,17 @@ body {
   width: 700px;
   margin: 100px auto;
 }
+
+.items {
+}
+.num {
+}
+.big-text {
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+.hidden-box {
+}
